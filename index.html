@@ -14,8 +14,8 @@
     <nav class="sticky top-0 z-10 bg-green-100 flex justify-between p-3 shadow-xl">
         <h1 class="font-medium text-xl ">GREENDEN</h1>
 
-        <div class="w-7 sm:hidden">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+        <div class="w-7 sm:hidden cursor-pointer">
+            <svg id="menutoggle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                 stroke="currentColor" class="size-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
             </svg>
@@ -27,6 +27,17 @@
             <li class="hover:underline hover:text-black cursor-pointer text-gray-500"><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
+
+<!-- side navbar -->
+ 
+<ul id="sidenavbar" style="right: -50%; transition: 0.3s;" class=" p-3 gap-10 bg-green-200 flex flex-col w-1/3 h-screen fixed z-20 top-0 right-0 text-center">
+    <div id="cancelsidenavbar" class="text-right cursor-pointer">
+        <p>X</p>
+    </div>
+    <li class="hover:underline hover:text-black cursor-pointer text-gray-500"><a href="index.html">Home</a></li>
+    <li class="hover:underline hover:text-black cursor-pointer text-gray-500"><a href="product.html">Products</a></li>
+    <li class="hover:underline hover:text-black cursor-pointer text-gray-500"><a href="contact.html">Contact</a></li>
+</ul>
 
     <!-- header section-->
     <section class="bg-green-100 p-3 md:p-8 flex justify-center">
@@ -166,7 +177,7 @@
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique, nam.</p>
         <p>&copy; 2021 Greenden.com</p>
     </footer>
-
+<script src="index.js"></script>
 </body>
 
 </html>
