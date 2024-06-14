@@ -3,7 +3,7 @@ Greenden Project
 Welcome to the Greenden project! This project is built using HTML and Tailwind CSS, focusing on creating a visually appealing and responsive design.
 
 Overview
-Greenden is a project aimed at showcasing the capabilities of HTML and Tailwind CSS in building a clean, modern, and responsive web application. The project demonstrates the use of utility-first CSS for rapid UI development.
+Greenden is a project aimed at showcasing the capabilities of HTML, Tailwind CSS and javascript in building a clean, modern, and responsive web application. The project demonstrates the use of utility-first CSS for rapid UI development.
 
 Features
 Responsive design
@@ -14,6 +14,7 @@ Easy to customize
 Technologies Used
 HTML
 Tailwind CSS
+Javascript
 
 Installation
 To get a local copy up and running, follow these steps:
